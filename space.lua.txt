@@ -576,7 +576,7 @@ UIStroke.Thickness = 1.5
 UIStroke.Parent = ImageButton1]]
 ----------------------------------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 7449423635 or game.PlaceId == 2753915549 or game.PlaceId == 4442272183 then ---// Blox Fruits
-	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f6f0f8d8d3a9d517f09c2ba863e815d0.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Sucanaday/RoYaL-Hub/main/RoYaL%20Hub.txt"))()
 end
 ----------------------------------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 8737899170 then --// Pet Simulator 99

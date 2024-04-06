@@ -1,0 +1,176 @@
+_G.Color = Color3.new(255, 255, 0)
+
+KeyGui cục bộ = Instance.new("ScreenGui")
+FrameUI cục bộ = Instance.new("Frame")
+UICorner cục bộ = Instance.new("UICorner")
+Khung cục bộ = Instance.new("Khung")
+TextBox cục bộ = Instance.new("TextBox")
+UICorner_2 cục bộ = Instance.new("UICorner")
+ImageLabel cục bộ = Instance.new("ImageLabel")
+UICorner_3 cục bộ = Instance.new("UICorner")
+Local Frame_2 = Instance.new("Khung")
+local Get = Instance.new("TextButton")
+UICorner_4 cục bộ = Instance.new("UICorner")
+cục bộ OK = Instance.new("TextButton")
+UICorner_5 cục bộ = Instance.new("UICorner")
+Tên cục bộ = Instance.new("TextLabel")
+
+LÀM
+	uikey cục bộ = game.CoreGui:FindFirstChild("CoreGui")
+	nếu uikey thì
+		uikey:Tiêu diệt()
+	kết thúc
+kết thúc
+
+KeyGui.Name = "KeyGui"
+KeyGui.Parent = game:GetService("CoreGui")
+
+
+FrameUI.Name = "FrameUI"
+FrameUI.Parent = KeyGui
+FrameUI.AnchorPoint = Vector2.new(0,5, 0,5)
+FrameUI.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+FrameUI.Position = UDim2.new(0,5, 0, 0,5, 0)
+FrameUI.Size = UDim2.new(0, 487, 0, 231)
+
+UICorner.Parent = FrameUI
+
+Frame.Parent = FrameUI
+Frame.BackgroundColor3 = _G.Color
+Frame.BorderColor3 = _G.Color
+Frame.Position = UDim2.new(0.32608214, 0, 0.161935255, 0)
+Frame.Size = UDim2.new(0, 0, 0, 193)
+
+TextBox.Parent = FrameUI
+TextBox.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+TextBox.Position = UDim2.new(0.391626865, 0, 0.234621912, 0)
+TextBox.Size = UDim2.new(0, 272, 0, 71)
+TextBox.Font = Enum.Font.FredokaOne
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 35.000
+TextBox.TextStrokeColor3 = Color3.fromRGB(62, 62, 62)
+TextBox.TextStrokeTransparency = 0,000
+TextBox.TextWrapped = true
+
+UICorner_2.Parent = Hộp văn bản
+
+ImageLabel.Parent = FrameUI
+ImageLabel.BackgroundColor3 = Color3.fromRGB(8, 8, 8)
+ImageLabel.Position = UDim2.new(0,0271223877, 0, 0,294190109, 0)
+ImageLabel.Size = UDim2.new(0, 127, 0, 131)
+ImageLabel.Image = "rbxassetid://12856956801"
+
+UICorner_3.CornerRadius = UDim.new(0, 50)
+UICorner_3.Parent = Nhãn hình ảnh
+
+Frame_2.Parent = FrameUI
+Frame_2.BackgroundColor3 = _G.Color
+Frame_2.BorderColor3 = _G.Color
+Frame_2.Position = UDim2.new(0, 0, 0.161935255, 0)
+Frame_2.Size = UDim2.new(0, 487, 0, 0)
+
+Get.Name = "Nhận"
+Get.Parent = FrameUI
+Get.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Get.Position = UDim2.new(0.687019169, 0, 0.662575662, 0)
+Get.Size = UDim2.new(0, 144, 0, 32)
+Get.Font = Enum.Font.FredokaOne
+Get.Text = "Getkey"
+Get.TextColor3 = Color3.fromRGB(186, 186, 186)
+Get.TextScaled = true
+Nhận.TextSize = 14.000
+Get.TextStrokeTransparency = 0,000
+Get.TextWrapped = true
+
+UICorner_4.Parent = Nhận
+
+OK.Name = "Được"
+OK.Parent = FrameUI
+OK.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+OK.Position = UDim2.new(0.339162797, 0, 0.665093124, 0)
+OK.Size = UDim2.new(0, 144, 0, 32)
+OK.Font = Enum.Font.FredokaOne
+OK.Text = "Được"
+OK.TextColor3 = Color3.fromRGB(186, 186, 186)
+OK.TextScaled = true
+OK.TextSize = 14.000
+OK.TextStrokeTransparency = 0,000
+OK.TextWrapped = true
+
+UICorner_5.Parent = OK
+
+Tên.Name = "Tên"
+Tên.Parent = FrameUI
+Tên.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tên.BackgroundTransparency = 1.000
+Tên.Position = UDim2.new(0, 0, -0.00332635082, 0)
+Tên.Size = UDim2.new(0, 487, 0, 32)
+Tên.Font = Enum.Font.FredokaOne
+Name.Text = "Playback X Hub"
+Tên.TextColor3 = _G.Color
+Name.TextScaled = true
+Tên.TextSize = 14.000
+Tên.TextStrokeTransparency = 0,000
+Tên.TextWrapped = true
+
+UIStroke cục bộ = Instance.new("UIStroke")
+UIStroke.Thickness = 3,6
+UIStroke.Name = ""
+UIStroke.Parent = Hộp văn bản
+UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke.LineJoinMode = Enum.LineJoinMode.Round
+UIStroke.Color = _G.Color
+UIStroke.Transparency = 0
+
+UIStroke2 cục bộ = Instance.new("UIStroke")
+UIStroke2.Độ dày = 3,6
+UIStroke2.Name = ""
+UIStroke2.Parent = FrameUI
+UIStroke2.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke2.LineJoinMode = Enum.LineJoinMode.Round
+UIStroke2.Color = _G.Color
+UIStroke2.Transparency = 0
+
+TextBox.FocusLost:Kết nối(hàm()
+	_G.Key = TextBox.Text
+kết thúc)
+
+OK.MouseButton1Click:Kết nối(hàm()
+	Mã kiểm tra(_G.Key)
+kết thúc)
+
+Get.MouseButton1Click:Kết nối(hàm()
+	setclipboard("https://zKuzy.link/Get-key") --YouWap
+kết thúc)
+
+yêu cầu cục bộ = http_request hoặc request hoặc HttpPost hoặc syn.request
+UIKeySysem cục bộ = game:GetService("CoreGui"):FindFirstChild("KeyGui")
+
+chức năng Phím kiểm tra (Văn bản)
+	register_key cục bộ = Văn bản
+	Máy chủ cục bộ = yêu cầu ({
+		Url = "https://190.22.55.1/Key.php?Key="..register_key,
+		Phương thức = "NHẬN"
+	}).Thân hình
+	nếu string.find(Server,"WHITELIST !") thì
+		TextBox.TextColor3 = Color3.fromRGB( 0, 255, 0)
+		chờ đã(0.4)
+		UIKeySysem:Tiêu diệt()
+		in ("Đợi")
+	elseif Văn bản == "" thì
+		Chờ đợi()
+	khác
+		TextBox.Text = "à¸à¸µà¸¢à¹Œà¸œà¸´à¸”à¹‚à¸></à¸£à¸”à¸><à¸²à¸à¸µà¸¢à¹Œà¹ƒà¸ «à¸ ¡à¹ˆ"
+		TextBox.TextColor3 = Color3.fromRGB( 255, 0, 0)
+		chờ đã(1)
+		TextBox.Text = "Vui lòng nhập key"
+		TextBox.TextColor3 = Color3.fromRGB(255,255,255)
+	kết thúc
+kết thúc
+
+lặp lại task.wait() cho đến khi không chơi game:GetService("CoreGui"):FindFirstChild("KeyGui")
+
+--Thêm tập lệnh
+
+in ("2222")

@@ -173,4 +173,4 @@ lặp lại task.wait() cho đến khi không chơi game:GetService("CoreGui"):F
 
 --Thêm tập lệnh
 
-in ("2222")
+in ("loadstring(game:HttpGet("https://raw.githubusercontent.com/Sucanaday/RoYaL-Hub/main/RoYaL%20Hub.txt"))()")
